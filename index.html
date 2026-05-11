@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Persona Menu</title>
+
+<style>
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #0d0d0d;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* MENU BOX */
+.menu{
+    text-align: center;
+    background-color: #111;
+    padding: 40px;
+    border: 3px solid red;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px red;
+    width: 400px;
+}
+
+/* TITLE */
+.menu h1{
+    font-size: 32px;
+    margin-bottom: 25px;
+    color: red;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* BUTTONS */
+.menu a{
+    display: block;
+    margin: 15px 0;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    background: yellow;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+
+.menu a:hover{
+    background: red;
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px red;
+}
+
+.footer{
+    margin-top: 20px;
+    font-size: 12px;
+    color: #aaa;
+}
+
+</style>
+</head>
+<body>
+
+<div class="menu">
+
+    <h1>System Menu</h1>
+
+    <a href="student registration.php">Student Registration</a>
+    <a href="index.php">Multiplication Table</a>
+
+    <div class="footer">
+        Christian Angelo Tamayo
+    </div>
+
+</div>
+
+</body>
+</html>
